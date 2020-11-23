@@ -1,0 +1,288 @@
+html{
+  background-color: #e5e5e5;
+}
+.App {
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.header p {
+  background-color: rgba(94, 148, 230, 0.77);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.imgLogo {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 20px;
+}
+
+.imgLogo:hover{
+    background:rgba(224, 224, 224, 0.747);
+
+}
+
+
+
+.buttons {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonA {
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(36, 52, 156);
+  border-radius: 20px;
+  color:white;
+  text-decoration: none;
+  
+}
+
+.buttonA:hover {
+  background: rgb(52, 72, 207);
+
+}
+
+.buttonB {
+  padding: 20px;
+  background: rgb(233, 223, 89);
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.buttonB:hover {
+  background: rgb(243, 234, 113);
+
+}
+
+.buttonC{
+  padding-top:40px;
+  padding-bottom:40px;
+  padding-left:30px;
+  padding-right:30px;
+background: rgb(78, 209, 85);
+margin: 10px;
+border-radius: 20px;
+color: white;
+text-decoration: none;
+}
+.buttonC:hover{
+  background: rgb(88, 235, 96);
+
+}
+  .buttonD{
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:10px;
+    padding-right:10px;
+    background: rgb(196, 143, 64);
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }  
+
+  .buttonD:hover{
+    background: rgb(223, 163, 73);
+  }
+    
+  .buttonE {
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-left:10px;
+    padding-right:10px;
+    background: rgb(209, 88, 193);
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }  
+
+  .buttonE:hover{
+
+    background: rgb(236, 100, 218);
+  }
+
+   .buttonF {
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-left:10px;
+    padding-right:10px;
+    background: rgb(213, 117, 216);
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }  
+  .buttonF:hover {
+    background: rgb(238, 132, 241);
+  }
+
+  /* .aboutKit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: auto;
+    
+  } */
+  
+  .textKit {
+    font-size: 25px;
+   margin: 80px;
+   margin-bottom: 0px;
+  }
+
+
+  .fotoKit{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+  }
+    
+  #container { 
+    height: auto; min-height: 100%; 
+  }
+
+  .footer{
+    background-color: rgba(94, 148, 230);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer img{
+    margin-left: 70px;
+    margin-right: -90px;
+    
+  }
+  
+  .footer .projects{
+    margin-right: 70px;
+    color: white;
+    font-size: 22px;
+
+    text-decoration: none;
+  }
+  .footer .projects:hover{
+    color:rgba(224, 224, 224, 0.747);
+  }
+  .footer .about{
+    font-size: 22px;
+    color: white;
+
+    text-decoration: none;
+
+  }
+  .footer .about:hover{
+    color:rgba(224, 224, 224, 0.747);
+  }
+  .footer .howToProg{
+    font-size: 22px;
+    color: white;
+
+    text-decoration: none;
+  }
+  .footer .howToProg:hover{
+    color:rgba(224, 224, 224, 0.747);
+  }
+  .divImg{
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+  }
+  .imgFooter {
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 20px;
+  }  
+  .imgFooter:hover{
+    background:rgba(224, 224, 224, 0.747);
+}
+ 
+
+  /* page apostilas e afins */
+
+  .linksApostilas {
+    padding: 15px;  
+    background: rgba(134, 72, 72, 0.747);
+    margin: 10px; 
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .linksApostilas:hover{
+    background: rgba(192, 103, 103, 0.747);
+
+  }
+
+
+  .linkComple {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    background: black;
+    border-radius: 20px;
+  }
+  .linkComple:hover{
+    background: rgb(26, 26, 26);
+  }
+  
+  
+  /* projects */
+  
+  .linksProjects{
+    padding: 25px;  
+    background: rgba(134, 72, 72, 0.747);
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .linksProjects:hover{
+    background: rgba(192, 103, 103, 0.747);
+
+  }
+  .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+
+
+  .textGlobal {
+    font-size: 20px;
+   margin: 70px;
+   margin-bottom: 0px;
+  }
+
+  .refere{
+    font-size: 15px;
+  }
+
+  .App .projects img {
+    height: 180px;
+    width: 180px;
+    margin: 0px 15px;
+    padding: 10px;
+    border-radius: 50px;
+  }
